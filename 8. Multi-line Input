@@ -1,0 +1,8 @@
+print("Enter your text (type 'STOP' to end):")
+lines = []
+while True:
+    line = input()
+    if line.upper() == "STOP":
+        break
+    lines.append(line)
+print("\n".join(lines))

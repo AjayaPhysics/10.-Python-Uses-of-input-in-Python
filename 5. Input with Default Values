@@ -1,0 +1,2 @@
+value = input("Enter a value (press Enter to use default 10): ") or "10"
+print(f"Value is: {value}")

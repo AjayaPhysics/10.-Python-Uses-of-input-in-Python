@@ -1,0 +1,7 @@
+while True:
+    user_input = input("Enter 'yes' to proceed: ")
+    if user_input.lower() == "yes":
+        print("Proceeding...")
+        break
+    else:
+        print("Invalid input. Try again.")

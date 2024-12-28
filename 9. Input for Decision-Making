@@ -1,0 +1,5 @@
+choice = input("Do you want to continue (yes/no)? ").strip().lower()
+if choice == "yes":
+    print("Continuing...")
+else:
+    print("Exiting...")
